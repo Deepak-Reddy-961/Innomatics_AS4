@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
     const products = [
-        { id: 1, name: "iPhone 16", category: "mobiles", price: 79999, img: "iphone16.jpg" },
+        { id: 1, name: "iPhone 16", category: "mobiles", price: 79999, img: "images/iphone16.jpg" },
         { id: 2, name: "Samsung Galaxy S25 Ultra", category: "mobiles", price: 144999, img: "S25.jpg" },
         { id: 3, name: "Dell G15", category: "laptops", price: 89999, img: "dell15.avif" },
         { id: 4, name: "MSI Katana GF66", category: "laptops", price: 129999, img: "msi.jpg" },
